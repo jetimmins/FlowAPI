@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88e1430-d273-4609-bc58-9c6091e17146" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/consumerExample/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/consumerExample/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/consumerExampleTests/consumerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/simple/flow/EndSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simple/flow/EndSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/simple/flow/tests/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/simple/flow/tests/FlowTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/simple-flow/.gradle/" />
@@ -68,7 +69,7 @@
         <counts>
           <entry key="Git file" value="3" />
           <entry key="Groovy" value="10" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -82,18 +83,30 @@
         <counts>
           <entry key="Git file" value="57" />
           <entry key="Groovy" value="25" />
-          <entry key="JAVA" value="2198" />
+          <entry key="JAVA" value="3277" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/simple/flow/tests/FlowTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="204">
+              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/consumerExampleTests/consumerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,18 +115,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/simple/flow/EndSubscriber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/consumerExample/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="17" column="5" selection-start-line="15" selection-start-column="50" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/consumerExample/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -509,6 +531,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/simple/flow/EndSubscriber.java" />
         <option value="$PROJECT_DIR$/src/test/java/simple/flow/tests/FlowTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mockQueueExample/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mockQueueExample/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/consumerExample/Server.java" />
+        <option value="$PROJECT_DIR$/src/test/java/consumerExampleTests/consumerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/consumerExample/Consumer.java" />
       </list>
     </option>
   </component>
@@ -577,6 +604,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlowAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlowAPITest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="flow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -584,6 +619,29 @@
               <item name="FlowAPITest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlowAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlowAPITest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlowAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlowAPITest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumerExampleTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlowAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FlowAPITest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -593,7 +651,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550337450312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550339615069" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -611,25 +669,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlowTests.whenCapacityIsOne_thenShouldConsumeOne">
-    <configuration name="FlowAPITest [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.consumerTest">
     <configuration name="FlowTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FlowAPI_test" />
       <extension name="coverage">
@@ -676,36 +716,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowTests.whenSubscribedTo_thenShouldConsumeAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="consumerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FlowAPI_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simple.flow.tests.*" />
+          <option name="PATTERN" value="consumerExampleTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="simple.flow.tests" />
-      <option name="MAIN_CLASS_NAME" value="simple.flow.tests.FlowTests" />
-      <option name="METHOD_NAME" value="whenSubscribedTo_thenShouldConsumeAll" />
+      <option name="PACKAGE_NAME" value="consumerExampleTests" />
+      <option name="MAIN_CLASS_NAME" value="consumerExampleTests.consumerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="consumerTest.whenSubscribedAndSubmitted_ShouldConsumeAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FlowAPI_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consumerExampleTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="consumerExampleTests" />
+      <option name="MAIN_CLASS_NAME" value="consumerExampleTests.consumerTest" />
+      <option name="METHOD_NAME" value="whenSubscribedAndSubmitted_ShouldConsumeAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.FlowAPITest [build]" />
       <item itemvalue="JUnit.FlowTests" />
-      <item itemvalue="JUnit.FlowTests.whenSubscribedTo_thenShouldConsumeAll" />
       <item itemvalue="JUnit.FlowTests.whenSubscribedAndTransform_thenShouldConsumeAll" />
       <item itemvalue="JUnit.FlowTests.whenCapacityIsOne_thenShouldConsumeOne" />
+      <item itemvalue="JUnit.consumerTest" />
+      <item itemvalue="JUnit.consumerTest.whenSubscribedAndSubmitted_ShouldConsumeAll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.consumerTest" />
+        <item itemvalue="JUnit.consumerTest.whenSubscribedAndSubmitted_ShouldConsumeAll" />
         <item itemvalue="JUnit.FlowTests.whenCapacityIsOne_thenShouldConsumeOne" />
         <item itemvalue="JUnit.FlowTests" />
         <item itemvalue="JUnit.FlowTests.whenSubscribedAndTransform_thenShouldConsumeAll" />
-        <item itemvalue="JUnit.FlowTests.whenSubscribedTo_thenShouldConsumeAll" />
-        <item itemvalue="Gradle.FlowAPITest [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -720,21 +774,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubscriberTests - 2019.02.10 at 22h 43m 46s.xml">
-      <configuration name="SubscriberTests" configurationId="JUnit" />
+    <history-entry file="consumerTest - 2019.02.16 at 17h 45m 38s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubscriberTests_whenSubscribedTo_thenShouldConsumeAll - 2019.02.16 at 16h 40m 49s.xml">
-      <configuration name="SubscriberTests.whenSubscribedTo_thenShouldConsumeAll" configurationId="JUnit" />
+    <history-entry file="consumerTest - 2019.02.16 at 17h 46m 17s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FlowTests_whenSubscribedAndTransform_thenShouldConsumeAll - 2019.02.16 at 16h 53m 33s.xml">
-      <configuration name="FlowTests.whenSubscribedAndTransform_thenShouldConsumeAll" configurationId="JUnit" />
+    <history-entry file="consumerTest - 2019.02.16 at 17h 48m 23s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="consumerTest - 2019.02.16 at 17h 48m 55s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="consumerTest - 2019.02.16 at 17h 49m 18s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="consumerTest - 2019.02.16 at 17h 49m 35s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="consumerTest - 2019.02.16 at 17h 49m 59s.xml">
+      <configuration name="consumerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="consumerTest_whenSubscribedAndSubmitted_ShouldConsumeAll - 2019.02.16 at 17h 51m 29s.xml">
+      <configuration name="consumerTest.whenSubscribedAndSubmitted_ShouldConsumeAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="consumerTest_whenSubscribedAndSubmitted_ShouldConsumeAll - 2019.02.16 at 17h 53m 14s.xml">
+      <configuration name="consumerTest.whenSubscribedAndSubmitted_ShouldConsumeAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="consumerTest_whenSubscribedAndSubmitted_ShouldConsumeAll - 2019.02.16 at 17h 53m 38s.xml">
+      <configuration name="consumerTest.whenSubscribedAndSubmitted_ShouldConsumeAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -743,17 +827,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29284164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29284164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="SonarLint" order="8" weight="0.32886723" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50074625" side_tool="true" weight="0.32886723" />
       <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49925372" weight="0.3286334" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -842,12 +926,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/simple/flow/EndSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="17" column="5" selection-start-line="15" selection-start-column="50" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="230">
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
             <element signature="e#1006#1007#0" expanded="true" />
             <element signature="e#1049#1050#0" expanded="true" />
             <element signature="e#1095#1096#0" expanded="true" />
@@ -856,10 +940,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.11.1/55362d8f04018b1140c5a370057bf8cd4a63c3de/assertj-core-3.11.1-sources.jar!/org/assertj/core/api/Assertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40919">
+          <caret line="2660" column="46" selection-start-line="2660" selection-start-column="46" selection-end-line="2660" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/simple/flow/tests/FlowTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="204">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/consumerExample/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/consumerExample/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/consumerExampleTests/consumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
