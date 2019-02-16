@@ -30,9 +30,12 @@
 hs_err_pid*
 
 .idea/vcs.xml
-build/tmp/compileJava/
-build/tmp/compileTestJava/
+build
 out/production/classes/generated/
 out/test/classes/generated_tests/
 src/main/resources/
 src/test/resources/
+.idea/sonarlint/.sonartmp/
+.idea/sonarlint/issuestore/0/6/
+.idea/sonarlint/issuestore/a/
+.idea/sonarlint/issuestore/c/

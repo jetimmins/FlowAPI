@@ -1,6 +1,6 @@
 
+[
+squid:S106""9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8÷œÅ-
 Asquid:S1148"#Use a logger to log this exception.(Óùóÿ8÷œÅ-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(Şí‡¥şÿÿÿÿ8÷œÅ-
-[
-squid:S106""9Replace this use of System.out or System.err by a logger.(ãÉ®îüÿÿÿÿ8÷œÅ-
